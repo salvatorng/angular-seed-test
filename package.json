@@ -19,10 +19,11 @@
   },
   "main": "scripts/server.js",
   "scripts": {
+    "start": "node scripts/server.js",
+    
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "node scripts/server.js",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
